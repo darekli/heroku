@@ -9,7 +9,7 @@ import com.vaadin.flow.router.Route;
 import heroku.heroku.DemoApp;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Route
+@Route("vaadin")
 public class VaadinGui extends VerticalLayout{
 
     DemoApp demoApp;

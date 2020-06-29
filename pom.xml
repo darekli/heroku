@@ -13,10 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>heroku</name>
     <description>for Heroku Deployment simple Start Spring Boot project</description>
-
+<!--    <packaging>war</packaging>-->
     <properties>
-        <java.version>1.8</java.version>
         <vaadin.version>14.0.14</vaadin.version>
+
     </properties>
 
     <dependencies>
@@ -32,6 +32,11 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
