@@ -15,7 +15,7 @@
     <description>for Heroku Deployment simple Start Spring Boot project</description>
 <!--    <packaging>war</packaging>-->
     <properties>
-        <vaadin.version>14.0.14</vaadin.version>
+        <vaadin.version>14.4.10</vaadin.version>
 
     </properties>
 
